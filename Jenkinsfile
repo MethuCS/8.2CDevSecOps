@@ -3,7 +3,7 @@ pipeline {
   
   // Ensure Jenkins knows which Node/npm to use
     tools {
-        nodejs 'node18' 
+        nodejs 'node' 
     }
  
   stages {
